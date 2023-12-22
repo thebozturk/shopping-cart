@@ -1,0 +1,10 @@
+{
+  "command": "addItem",
+  "payload": {
+    "itemId": 1,
+    "categoryId": 2,
+    "sellerId": 3,
+    "price": 100,
+    "quantity": 1
+  }
+}

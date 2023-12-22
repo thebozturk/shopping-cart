@@ -1,0 +1,28 @@
+{
+  "command": "addItem",
+  "payload": {
+    "itemId": 1,
+    "categoryId": 2,
+    "sellerId": 3,
+    "price": 100,
+    "quantity": 1
+  }
+}
+
+{
+  "command": "addVasItemToItem",
+  "payload": {
+    "itemId": 1,
+    "vasItemId": 2,
+    "vasCategoryId": 1,
+    "vasSellerId": 23,
+    "price": 120,
+    "quantity": 3
+  }
+}
+
+{ "command": "removeItem", "payload": { "itemId": 1 } }
+
+{ "command": "resetCart" }
+
+{"command":"displayCart"}  
